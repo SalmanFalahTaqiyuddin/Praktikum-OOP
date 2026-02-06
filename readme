@@ -1,0 +1,8 @@
+Penjelasan Singkat Implementasi:
+Abstraction: Menggunakan BarangElektronik sebagai ABC (Abstract Base Class) sehingga tidak bisa diinstansiasi langsung dan mewajibkan adanya method detail dan hitung harga.
+
+Encapsulation: Atribut __stok dan __harga_dasar bersifat private (diawali __). Akses data dilakukan melalui method get_stok() dan validasi perubahan dilakukan di set_stok().
+
+Inheritance: Laptop dan Smartphone mewarisi semua sifat dari BarangElektronik.
+
+Polymorphism: Method tampilkan_detail dan hitung_harga_total memiliki logika yang berbeda (pajak 10% vs 5%) meskipun namanya sama.
