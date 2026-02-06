@@ -87,10 +87,7 @@ Sangat penting karena dengan menerima objek utuh, method `serang` memiliki akses
 ---
 
 ## 🏗️ Proyek Praktikum: TechMaster Inventory System
-**Pertanyaan:**
-Buatlah readme yang menjelaskan implementasi 4 pilar OOP pada proyek ini.
 
-**Jawaban:**
 Proyek ini mengintegrasikan seluruh konsep OOP:
 * **Abstraction:** Menggunakan class `BarangElektronik` sebagai template abstrak.
 * **Encapsulation:** Melindungi data `stok` dan `harga` dengan atribut private dan validasi pada Setter.
